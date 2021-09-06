@@ -1,0 +1,10 @@
+.wrapper {
+  height: inherit;
+}
+
+.helper-text-container {
+  max-width: 25rem;
+  margin: 0 auto;
+  text-align: left;
+  min-height: 1.5rem;
+}
