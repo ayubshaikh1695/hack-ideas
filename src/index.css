@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.dropdown-toggle::after {
+  content: none !important;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.display-at-576 {
+  display: none;
+}
+
+@media (min-width: 576px) {
+  .display-at-576 {
+    display: initial;
+  }
+}
