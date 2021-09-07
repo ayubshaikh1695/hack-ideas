@@ -17,13 +17,13 @@ function ChallengeCard({ challenge, upvote }) {
       <Card.Header className='text-muted'>
         <div>
           <small>
-            <i class='fas fa-calendar-alt'></i>&nbsp;Created at&nbsp;
+            <i className='fas fa-calendar-alt'></i>&nbsp;Created at&nbsp;
             {formatTime(challenge.createdAt)}
           </small>
         </div>
         <div>
           <small>
-            <i class='fas fa-user'></i>&nbsp;Created by&nbsp;
+            <i className='fas fa-user'></i>&nbsp;Created by&nbsp;
             {createdByYou ? 'You' : challenge.employee.name}
           </small>
         </div>
