@@ -6,6 +6,15 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `npm run dev`
+
+Starts json server along with the react app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view the react app in the browser.
+
+Json server will start on port 3001.\
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
+
 ### `npm start`
 
 Runs the app in the development mode.\
@@ -13,6 +22,13 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
+
+### `npm run json-server`
+
+Runs the json server.\
+Open [http://localhost:3001/employees](http://localhost:3001/employees) to view the response from /employees endpoint from json.db file in the browser.
+
+Open [http://localhost:3001/challenges](http://localhost:3001/challenges) to view the response from /challenges endpoint from json.db file in the browser.
 
 ### `npm test`
 
