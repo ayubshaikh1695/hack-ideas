@@ -167,6 +167,7 @@ function Home() {
                 >
                   {SORT_METHODS.map((method) => (
                     <Dropdown.Item
+                      key={method}
                       role='button'
                       active={sortedBy === method}
                       onClick={() => sortBy(method)}
