@@ -105,14 +105,21 @@ function Login() {
                   value={employeeId}
                   onChange={handleInput}
                   onKeyUp={handleKeyUp}
+                  data-testid='employee-id-input'
                 />
-                <Button variant='primary' onClick={handleLogin}>
+                <Button
+                  variant='primary'
+                  onClick={handleLogin}
+                  data-testid='login-button'
+                >
                   Login
                 </Button>
               </InputGroup>
               <div className={styles['helper-text-container']}>
                 {hasError && (
-                  <Form.Text className='text-danger'>{errorText}</Form.Text>
+                  <Form.Text className='text-danger' data-testid='error-text'>
+                    {errorText}
+                  </Form.Text>
                 )}
               </div>
             </Card.Body>
